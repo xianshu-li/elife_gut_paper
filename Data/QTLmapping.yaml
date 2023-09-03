@@ -1,0 +1,23 @@
+crosstype: risib
+geno: geno.csv
+pheno: pheno.csv
+gmap: gmap.csv
+covar: covar.csv
+alleles:
+- B
+- D
+genotypes:
+  B: 1
+  D: 2
+na.strings:
+- '-'
+- NA
+x_chr: X
+sex:
+  covar: sex
+  f: female
+  m: male
+cross_info:
+  covar: cross_direction
+  (BxD)x(BxD): 0
+  (DxB)x(DxB): 1
